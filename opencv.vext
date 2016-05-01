@@ -1,0 +1,19 @@
+# opencv vext
+#
+
+# Vext will allow access to these modules
+modules:
+    cv, cv2
+
+test_import:
+    # Vext will try and import any modules here
+    # To check if the install worked
+    cv, cv2
+
+install_hints:
+    default:
+         OpenCV was not found, install it in your system python.
+
+    linux:
+         Pygame was not found, install the package
+         python-opencv
